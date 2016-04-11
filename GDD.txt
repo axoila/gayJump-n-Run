@@ -1,0 +1,13 @@
+setting:
+    ancient greece
+
+aestetic:
+    ancient vases
+
+
+characters:
+    main character:
+        fight with sword and shield to save her girlfriend
+
+    girlfriend:
+        captured by ??? (god?) will help in final bossfight!
