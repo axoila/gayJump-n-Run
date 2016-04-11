@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Ancient Gays</title>
+
+		<style>
+			canvas {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				background: transparent;
+				width: 512px;
+				height: 512px;
+			}
+			#background {
+				z-index: -5;
+			}
+			#player {
+				z-index: -3;
+			}
+			canvas, img {
+				image-rendering: optimizeSpeed;
+				image-rendering: -moz-crisp-edges;
+				image-rendering: -webkit-optimize-contrast;
+				image-rendering: optimize-contrast;
+				image-rendering: pixelated;
+				-ms-interpolation-mode: nearest-neighbor;
+			}
+		</style>
+	</head>
+	<body style="background-color: black">
+		<canvas id="background" width="512" height="512">
+			Your Browser doesn't support canvas, try another one.
+		</canvas><canvas id="player" width="512" height="512">
+			Your Browser doesn't support canvas, try another one.
+		</canvas>
+		<script src="game.js"></script>
+	</body>
+</html>
